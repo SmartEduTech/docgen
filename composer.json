@@ -1,0 +1,21 @@
+{
+    "name": "smartedutech/docgen",
+    "description": "generateur de document avec publiposteage",
+    "type": "library",
+    "require": {
+        "phpoffice/phpword": "^1.1",
+        "phpunit/phpunit": "^9.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Smartedutech\\Docgen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "oussama limam"
+        }
+    ],
+    "minimum-stability": "stable"
+}
